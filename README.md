@@ -6,6 +6,12 @@ This is a Dockerfile containing the newest incarnation of vCenter Simulator (vcs
 docker build -t vcsim .
 ```
 
+## Docker Hub
+Alternatively to building locally, you can pull from the docker hub.
+```
+docker pull jakerobinson/vcsim
+```
+
 ## run
 ```
 docker run -p 8989:8989 vcsim
