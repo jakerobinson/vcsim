@@ -7,8 +7,9 @@ docker build -t vcsim .
 ```
 
 ## run
+```
 docker run -p 8989:8989 vcsim
-
+```
 
 
 ## Wish list
