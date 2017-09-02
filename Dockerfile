@@ -3,7 +3,7 @@ MAINTAINER Jake Robinson <jaker@vmware.com>
 
 ENV GOPATH=/root/
 
-RUN go get -u github.com/vmware/vic/cmd/vcsim
+RUN go get -u github.com/vmware/govmomi/vcsim
 
 EXPOSE 8989
 
